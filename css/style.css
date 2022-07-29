@@ -1,0 +1,474 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+*{
+    font-family: Cairo;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*start header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 0px 10px;
+    border-top: solid crimson 4px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: ease 1s;
+
+}
+header a:hover{
+    font-size: 21px;
+    color: #1abc9c;
+}
+
+/* end header*/
+
+
+/*start carsour*/
+.carsour{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 80px;
+    background-image: url(../images/img2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-position: center;
+
+
+}
+.carsour span{
+    color: crimson;
+}
+.carsour h2{
+    color: #2c3e50;
+    font-size: 27px;
+
+}
+
+.carsour a{
+    color: white;
+    text-decoration: none;
+    background-color: #1abc9c;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: ease 1s;
+
+
+}
+.carsour a:hover{
+    background-color: #2c3e50;
+    transform: scale(1.1);
+}
+
+/*end carsous*/
+
+/*start service*/
+.service h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+.service .container{
+    display: flex;
+    padding: 0px 85px;flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}
+.service .card{
+    margin-right:  20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 10px;
+    width: 20em;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 1000;
+}
+.card h3{
+    color: crimson;
+    
+}
+.card p{
+    font-size: 15px;
+    
+}
+.service .card>div{
+    color: #2c3e50;
+     font-size: 50px;
+}
+/*end service*/
+
+/*start protofillo*/
+.protofilio{
+    background-color: #2c3e50;
+    text-align: center;
+    
+    padding: 30px 100px;
+}
+.protofilio h2{
+    text-align: center;
+    margin: 30px 0px;
+    color: white;
+    display: inline-block;
+    border-bottom: solid crimson;
+}
+.protofilio .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.protofilio .card{
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 0px 0px;
+    padding-bottom: 10px;
+    width: 18em;
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 250px;
+
+
+}
+.protofilio img{
+    width: 100%;
+    height: 12em;
+    /*object-fit: cover;*/
+}
+.protofilio  .card-des button{
+    border-radius: 10px;
+    color: white;
+    background-color: #1abc9c;
+    padding: 0px 8px;
+    border: none;
+    flex-shrink: 0;
+    margin-left: 10px;
+    font-weight: 800;
+    
+
+    
+}
+.protofilio  .card-des p{
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 1000;
+}
+
+.protofilio .card-des{
+    margin: 0px 10px;
+    display: flex;
+    align-items: end;
+    text-align: left;
+    text-align: justify;
+}
+/*end protofilio*/
+
+/*start notilla*/
+.notilla{
+    padding:50px 100px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.notilla h2{
+    color: crimson;
+}
+.notilla p{
+    font-size: 13px;
+    text-align: center; 
+
+}
+.notilla .notilla-text{
+    width: 60%;
+    text-align: center;
+}
+.notilla .notilla-img{
+    width: 40%;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 40%);
+    overflow: hidden;
+    text-align: center;
+}
+.notilla .rtl-img{
+    margin-left: 30px!important;
+    margin-right: 0px!important;
+}
+.notilla .notilla-img img{
+    width: 100%
+
+}
+/*end notilla*/
+
+/*start about */
+.about{
+    min-height: 80vh;
+    padding: 50px;
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.5);
+
+
+
+}
+.about h2{
+    color: white;
+    display: inline-block;
+    border-bottom: solid crimson;
+    margin-bottom: 20px;
+
+}
+.about>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin-top: 50px;
+}
+.about img{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: solid white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+/*end about*/
+/*start contact*/
+.contact{
+    text-align: center;
+    padding: 30px 100px; 
+    min-height: 80vh;
+    padding: 50px;
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.5);
+    
+
+
+}
+.contact>h2{
+    color: crimson;
+    display: inline-block;
+    border-bottom: solid black;
+    margin-bottom: 20px;
+
+}
+.form{
+    width: 20em;
+    height: 100vh;
+    margin-bottom: 20px;
+	z-index: 999;
+}
+.form label{
+	display:block;
+	margin-bottom: 10px;
+}
+.formlabel > span{
+	float: left;
+	width: 100px;
+	color: #3b2f34;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.form fieldset{
+	border-radius: 10px;
+	border-radius: 10px;
+	border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #FFD2D2;
+	padding: 20px;
+	background: #2c3e40;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form fieldset legend{
+	color: #3b2f34;
+	border-top: 1px solid #2c3e40;
+	border-left: 1px solid #2c3e40;
+	border-right: 1px solid #2c3e40;
+	border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	background: #FFF4F4;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #F1F1F1;
+	box-shadow:-0px -1px 2px #F1F1F1;
+	box-shadow:-0px -1px 2px #F1F1F1;
+	font-weight: normal;
+	font-size: 12px;
+}
+.form textarea{
+	width:250px;
+	height:100px;
+}
+.form input[type=text],
+.form input[type=date],
+.form input[type=datetime],
+.form input[type=number],
+.form input[type=search],
+.form input[type=time],
+.form input[type=url],
+.form input[type=email],
+.form select, 
+.form textarea{
+	border-radius: 3px;
+	border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #FFC2DC;
+	outline: none;
+	color: #3b2f34;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:100%;
+    font-size: 13px;
+    font-weight: 700;
+}
+.form input[type=submit],
+.form input[type=button]{
+	background: #6d6367;
+	border: 1px solid #C94A81;
+	padding: 5px 15px 5px 15px;
+	color: #250a16;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	border-radius: 3px;
+	border-radius: 3px;
+	border-radius: 3px;
+	border-radius: 3px;	
+	font-weight: bold;
+}
+.required{
+	color:red;
+	font-weight:normal;
+}
+/*end contact*/
+
+/*start footer*/
+
+footer{
+    background-color: #2c3e50;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}footer h3{
+    display: inline-block;
+    color: crimson;
+}
+footer p{
+    color: red;
+}
+/*end footer*/
+/* start scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: crimson; 
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #250a16; 
+  }
+/*end scroll bar*/
+
+/*media quary*/
+
+@media(max-width:1313px){
+    *{
+        font-size: 90%;
+
+    }
+    .protofilio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .protofilio .card-des{
+        font-size: 80%;
+        font-weight: 500;
+    }
+    
+}
+@media(max-width:1170px){
+    *{
+        font-size: 88%;
+
+    }
+    .notilla{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .notilla p{
+        font-size: 85%;
+        
+    }
+    .notilla-img {
+        width: 50%;
+        margin: 0px auto;
+        text-align: center;
+        display: inline;
+    }
+}
+ 
+
+
